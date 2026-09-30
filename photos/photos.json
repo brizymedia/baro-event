@@ -1,0 +1,42 @@
+{
+ "updated": "",
+ "categories": [
+  {
+   "slug": "sports",
+   "name": "체육대회 · 명랑운동회",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "festival",
+   "name": "지역축제 · 주민행사",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "show",
+   "name": "공연 · 점등식 · 캠프",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "water",
+   "name": "물놀이 축제",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "ceremony",
+   "name": "커팅식 · 오픈 이벤트",
+   "desc": "",
+   "count": 0
+  },
+  {
+   "slug": "gear",
+   "name": "음향 · 장비 · 장식",
+   "desc": "",
+   "count": 0
+  }
+ ],
+ "photos": []
+}
