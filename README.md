@@ -1,4 +1,4 @@
-# 바로기획 홈페이지 (시안)
+# 바로기획 홈페이지
 
 정적 사이트 — GitHub Pages 로 배포: https://brizymedia.github.io/baro-event/
 
