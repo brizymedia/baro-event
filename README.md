@@ -16,8 +16,10 @@
 | 행사 이야기 | `stories/` | 없음 — `python tools/make_pages.py` |
 | 지역 페이지 | `areas/` | 없음 — 같은 명령 |
 | 문의 알림 | `contact.html` 폼 · 견적서 | 문의 서버 → 대표 메일 + 큰길브리지 |
+| 행사 일정 · 체크리스트 | `schedule.html` | 계약 서버(일정 기능 — 2026-10-03 새 코드, 재배포 + 스크립트 속성 `CREW_PW` 필요) |
+| 대표 전용 업무 문서함 | `office.html` | 없음 — 도구 모음 · 서버 연결 상태 · 암호 안내(noindex) |
 | 유입 현황 · AI 검색 | `stats.js` · `llms.txt` · `sitemap.xml` · `robots.txt` | 큰길브리지 유입 서버 |
 
-- 서류 3종과 `upload.html` 은 큰길이벤트 원본에서 `python tools/port_docs.py` 로 옮긴다(원본이 바뀌면 다시 돌리면 됨). 바로기획 쪽 손수정은 그 스크립트 안에 규칙으로 넣을 것.
+- 서류 3종 · `upload.html` · `schedule.html` · `quote-catalog.js` · 서버 코드 · `office.html` 은 큰길이벤트 원본에서 `python tools/port_docs.py` 로 옮긴다(원본이 바뀌면 다시 돌리면 됨). 바로기획 쪽 손수정은 그 스크립트 안에 규칙으로 넣을 것.
 - 직인: `assets/img/stamp-baro.png` (투명 PNG) 가 생기면 계약서 · 명세서에 찍힌다. 없으면 「(인)」 자리만.
 - 계약 서버 주소가 정해지면 `tools/port_docs.py` 의 `BARO_CONTRACT` 에 넣고 다시 돌린다.
